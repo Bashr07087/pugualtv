@@ -1,0 +1,154 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #f4f4f7;
+    font-weight: bolder;
+}
+
+.nav {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav a {
+    color: #bcc90b;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #bcc90b;
+    border-radius: 5px;
+    background-color: rgba(51, 49, 49, 0.1);
+    cursor: pointer;
+}
+
+.nav a:hover {
+    background-color: rgb(41, 37, 37);
+    color: #8d0b0b;
+}
+
+footer {
+    background-color: #6b6969;
+    color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border-top: 2px solid #bcc90b;
+    margin-top: 20px;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-content .title {
+    font-size: 2em;
+    margin: 0;
+    color: #af0a0a;
+}
+
+.footer-content .description {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #bcc90b;
+    font-weight: bold;
+}
+
+.social-icons {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.social-icons li {
+    margin: 0 15px;
+}
+
+.social-icons a {
+    color: #fff; /* Default text color */
+    font-size: 40px; /* Adjusted icon size */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    opacity: 0.8;
+}
+
+.social-icons .youtube a {
+    color: #FF0000; /* YouTube color */
+}
+
+.social-icons .facebook a {
+    color: #3b5998; /* Facebook color */
+}
+
+.social-icons .instagram a {
+    color: #e4405f; /* Instagram color */
+}
+
+.social-icons .email a {
+    color: #000000; /* Email color */
+}
+
+.social-icons .whatsapp a {
+    color: #25D366; /* WhatsApp color */
+}
+
+.social-icons .twitter a {
+    color: #1DA1F2; /* Twitter color */
+}
+
+.social-icons .linkedin a {
+    color: #0077B5; /* LinkedIn color */
+}
+
+.icon-name {
+    font-size: 12px; /* Smaller font size for icon names */
+    color: #f4f4f7;
+    margin-top: 5px;
+    display: block;
+}
+
+.footer-description {
+    font-size: 1em;
+    color: #f4f4f4;
+    margin-top: 20px;
+}
